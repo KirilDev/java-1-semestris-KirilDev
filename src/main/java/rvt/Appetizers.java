@@ -7,7 +7,7 @@ public class Appetizers {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Ievadi preci: ");
-        String productName = scanner.nextLine();  // Directly using nextLine
+        String productName = scanner.nextLine();
 
         System.out.print("Ievadi cenu: ");
         double productPrice = 0;
