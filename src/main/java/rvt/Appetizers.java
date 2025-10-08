@@ -38,7 +38,6 @@ public class Appetizers {
             summary += standardOrderPrice;
             System.out.println("  " + "piegāde: " + standardOrderPrice);
         }
-
         System.out.println("  " + "kopā: " + summary);
     }
 }
