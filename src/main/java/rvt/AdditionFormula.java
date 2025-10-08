@@ -17,3 +17,4 @@ public class AdditionFormula {
         System.out.println(firstNumber + " + " + secondNumber + " = " + result);
     }
 }
+
