@@ -32,6 +32,16 @@ public class Arrays {
          intArray[3] = x * getFour();
          intArray[4] = 10000;
 
+
+
+        int[] initializedIntArr = {1, 3, 5, 7, 9};
+        System.out.println("Lenght of int[] initializedIntArr = " + initializedIntArr.length);
+
+
+
+
+
+
         }
         public static int getFour(){
             return 4;
