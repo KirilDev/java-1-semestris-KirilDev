@@ -1,2 +1,2 @@
-# java-console
-project template for Java CLI app
+# Java Exercises
+Fork of my college Java project folder
