@@ -37,7 +37,13 @@ public class Arrays {
         int[] initializedIntArr = {1, 3, 5, 7, 9};
         System.out.println("Lenght of int[] initializedIntArr = " + initializedIntArr.length);
 
+        int[] valA = { 12, 23, 45, 56 };
 
+        int[] valB = new int[4]; 
+        valB[ 0 ]  = valA[ 0 ] ;
+        valB[ 1 ]  = valA[ 1 ] ;
+        valB[ 2 ]  = valA[ 2 ] ;
+        valB[ 3 ]  = valA[ 3 ] ;
 
 
 
