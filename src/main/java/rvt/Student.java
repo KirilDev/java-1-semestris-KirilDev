@@ -30,9 +30,25 @@ class Student {
         System.out.println("Student's exams status is: " + isExamsWritten);
     }
 
+    void suggestInternship(){
+        if (course == 3 && isExamsWritten == true) {
+            System.out.println("Congrats on exams! You can get full-time internship to finish your education!");
+        }
+        else if (course == 3 && isExamsWritten == false) {
+            System.out.println("Student can get part-time internship since he'll write exams soon...");
+        }
+        else{
+            System.out.println("You're not allowed to get internship");
+        }
+    }
     public static void main(String[] args){
         Student a242400 = new Student("Kirill", "L.", "Computer Science", 2, 17, false, false );
+        Student a242100 = new Student("Akita", "Light", "Computer Science", 3, 19, false, true)
 
         a242400.showInfo();
+        a242400.suggestInternship();
+
+        a242100.showInfo();
+        a242100.suggestInternship();
     }
 }
