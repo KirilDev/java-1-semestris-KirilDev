@@ -13,7 +13,7 @@ class Course {
     }
 
     void addStudent(Student student){
-        students.add(student)
+        students.add(student);
     }
 
     void listStudents(){
@@ -22,7 +22,9 @@ class Course {
         }
     }
     public static void main(String[] args){
-        
+        Student firstStudent = new Student("Kirill", 17, 8);
+        Student secondStudent = new Student("Nikita", 16, 7);
+        Student thirdStudent = new Student("Marek", 15, 6);
     }   
 }
 class Student {
