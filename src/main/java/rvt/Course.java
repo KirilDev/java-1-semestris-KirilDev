@@ -7,20 +7,19 @@ class Course {
     String courseName;
     ArrayList<Student> students = new ArrayList<Student>();
 
+    Course(String courseName, ArrayList<Student> students){
+        this.courseName = courseName;
+        this.students = students;
+    }
 
-
-    void addStudent(){
-
+    void addStudent(Student student){
+        students.add(student)
     }
 
     void listStudents(){
-
-    }
-    void addGrade(){
-
-    }
-    void listGrades(){
-
+        for (int i = 0; i < students.length; i++) {
+            System.out.println(students.get(i));
+        }
     }
     public static void main(String[] args){
         
@@ -30,4 +29,24 @@ class Student {
     String name;
     int age;
     ArrayList<Integer> grades = new ArrayList<Integer>();
+
+    Student(String name, int age, ArrayList<Integer> grades){
+        this.name = name;
+        this.age = age;
+        this.grades = grades;
+    }
+
+    void addGrade(int grade){
+        grades.add(grade);
+    }
+    void averageGrade(){
+        Integer sum = 0;
+        if(!grades.isEmpty()){
+            sum += grades;
+        }
+        else{
+            System.out.println("List is empty.");
+        }
+        return sum.doubleValue() / grades.size();
+    }
 }
