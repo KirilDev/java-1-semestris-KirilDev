@@ -5,12 +5,16 @@ public class App {
         PaymentCard card = new PaymentCard(50);
         System.out.println(card);
 
-
-        card.eatAffordably();
+        card.eatHeartily();
         System.out.println(card);
 
         card.eatHeartily();
-        card.eatAffordably();
+        System.out.println(card);
+
+        card.addMoney(15);
+        System.out.println(card);
+
+        card.addMoney(90.2);
         System.out.println(card);
     }
 }
