@@ -5,15 +5,15 @@ public class Statistics {
 
 
     public Statistics(){
-
+        this.count = count;
     }
 
     public void addNumber(int number){
-
+        count = count + number;
     }
 
     public int getCount(){
-
+        return count;
     }
 
     public static void main(String[] args){
