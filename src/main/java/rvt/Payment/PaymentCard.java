@@ -1,13 +1,20 @@
-package rvt;
+package rvt.Payment;
 
 public class PaymentCard {
     private double balance;
 
     public PaymentCard(double openingBalance) {
-        // write code here
+        this.balance = openingBalance;
     }
 
     public String toString() {
-        // write code here
+        return "The card has a balance of " + this.balance + " euros";
+    }
+
+    public void eatAffordably(){
+
+    }
+    public void eatHeartily(){
+        
     }
 }
