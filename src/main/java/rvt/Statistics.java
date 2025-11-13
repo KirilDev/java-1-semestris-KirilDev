@@ -8,6 +8,7 @@ public class Statistics {
     public Statistics(){
         this.count = count;
         this.counter = 0;
+        this.sum = sum;
     }
 
     public void addNumber(int number){
