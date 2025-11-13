@@ -7,6 +7,7 @@ public class Statistics {
 
     public Statistics(){
         this.count = count;
+        this.counter = 0;
     }
 
     public void addNumber(int number){
