@@ -20,31 +20,4 @@ public class SumOfUserInput {
 
         scanner.close();
     }
-
-    public static class Statistics {
-        private int count;
-        private int counter;
-
-        public Statistics() {
-            this.count = 0;
-            this.counter = 0;
-        }
-
-        public void addNumber(int number) {
-            count = count + number;
-            counter++;
-        }
-
-        public int getCount() {
-            return counter;
-        }
-
-        public int sum() {
-            return count;
-        }
-
-        public double average() {
-            return (double) count / counter;
-        }
-    }
 }
