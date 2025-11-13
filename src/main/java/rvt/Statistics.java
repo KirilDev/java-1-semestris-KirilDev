@@ -2,6 +2,7 @@ package rvt;
 
 public class Statistics {
     private int count;
+    private int counter;
     private int sum;
 
     public Statistics(){
@@ -10,17 +11,19 @@ public class Statistics {
 
     public void addNumber(int number){
         count = count + number;
+        counter++;
     }
-
+    
     public int getCount(){
-        return count;
+        return counter;
     }
-
+    
     public int sum(){
+        return count;
 
     }
     public double average(){
-
+        return count / counter;
     }
 
     public static void main(String[] args){
