@@ -1,22 +1,23 @@
 package rvt;
+
 import java.util.Scanner;
 
 public class SumOfUserInput {
     public static void main(String[] args) {
         Statistics statistics = new Statistics();
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter numbers (max 5): ");
-        int limit = 5;
-        while (scanner.hasNextInt() && statistics.getCount() < limit) {
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter numbers: ");
             int number = scanner.nextInt();
             statistics.addNumber(number);
+
         }
-        
+
         System.out.println("Sum: " + statistics.sum());
         System.out.println("Count: " + statistics.getCount());
         System.out.println("Average: " + statistics.average());
-        
+
         scanner.close();
     }
 
