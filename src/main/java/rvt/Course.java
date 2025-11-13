@@ -44,7 +44,7 @@ class Student {
     void averageGrade(){
         Integer sum = 0;
         if(!grades.isEmpty()){
-            sum += grades;
+            sum = sum + grades;
         }
         else{
             System.out.println("List is empty.");

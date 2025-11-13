@@ -2,7 +2,7 @@ package rvt;
 
 public class Statistics {
     private int count;
-
+    private int sum;
 
     public Statistics(){
         this.count = count;
@@ -16,6 +16,13 @@ public class Statistics {
         return count;
     }
 
+    public int sum(){
+
+    }
+    public double average(){
+
+    }
+
     public static void main(String[] args){
         Statistics statistics = new Statistics();
         statistics.addNumber(3);
@@ -23,5 +30,7 @@ public class Statistics {
         statistics.addNumber(1);
         statistics.addNumber(2);
         System.out.println("Count: " + statistics.getCount());
+        System.out.println("Sum: " + statistics.sum());
+        System.out.println("Average: " + statistics.average());
     }
 }
