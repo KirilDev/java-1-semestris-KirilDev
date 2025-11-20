@@ -25,8 +25,8 @@ public class Appetizers {
 
     public static void payCheckMaker(String productName, double productPrice, double specialOrder) {
         double summary = productPrice;
-        double standardOrderPrice = 2.00;
-        double specialOrderPrice = 3.00;
+        final double standardOrderPrice = 2.00;
+        final double specialOrderPrice = 3.00;
 
         System.out.println("Rēķins:");
         System.out.println("  " + productName);
