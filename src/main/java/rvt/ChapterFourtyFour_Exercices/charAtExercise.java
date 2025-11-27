@@ -1,7 +1,4 @@
 package rvt.ChapterFourtyFour_Exercices;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class charAtExercise {
